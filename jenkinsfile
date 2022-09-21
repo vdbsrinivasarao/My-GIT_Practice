@@ -3,25 +3,25 @@ pipeline
     agent any
      stages
       {
-       stage('Buid') 
+       stage('Buid2') 
         {
             steps 
             {
-                echo 'Buid1'
+                echo 'Buid'
             }
         }    
-            stage('Test') 
+            stage('Test2') 
         {
             steps 
             {
-                echo 'Test1'
+                echo 'Test'
             }
         }    
-            stage('Deply') 
+            stage('Deply2') 
         {
             steps 
             {
-                echo 'Deploy1'
+                echo 'Deploy'
             }
         }
     }
