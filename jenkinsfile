@@ -3,7 +3,7 @@ pipeline
     agent any
      stages
       {
-       stage('Buid') 
+       stage('Buid1') 
         {
             steps 
             {
@@ -21,7 +21,7 @@ pipeline
         {
             steps 
             {
-                echo 'Deploy1'
+                echo 'Deploy'
             }
         }
     }
